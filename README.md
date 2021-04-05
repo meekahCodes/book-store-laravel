@@ -1,3 +1,18 @@
+## Steps To Configure the Project in Local
+
+Please run the following commands to set up the project easily
+
+1. Clone Repo
+2. Run "composer install"
+3. Run "php artisan migrate --seed"
+4. Run "php artisan passport:install"
+5. Configure the MSSQL in .env by taking a copy of env.example
+6. php artisan optimize
+7. Run "php artisan serve"
+
+Thats it, You are good to go!
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
