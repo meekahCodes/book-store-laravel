@@ -15,6 +15,7 @@ class BookController extends Controller
      */
     public function showAllBooks(Request $request)
     {
+
         try {
             $books = Book::join('users', 'users.id', '=', 'books.user_id')
                             ->where('users.is_active', '=', 1);
